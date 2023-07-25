@@ -22,7 +22,7 @@ addStudentButton.addEventListener('click', function(event) {
     let innerHTMLWithStudents = ''
 
     studentsArray.forEach((item, i) => {
-        innerHTMLWithStudents += `<div>${item} ${i+1}</div>`
+        innerHTMLWithStudents += `<div>${i+1} ${item}</div>`
     })
 
     studentsListElement.innerHTML = innerHTMLWithStudents
