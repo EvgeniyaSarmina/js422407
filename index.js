@@ -18,7 +18,6 @@ addStudentButton.addEventListener('click', function(event) {
     
     studentsArray.push(studentsString)
 
-    console.log(studentsArray)
     let innerHTMLWithStudents = ''
 
     studentsArray.forEach((item, i) => {
